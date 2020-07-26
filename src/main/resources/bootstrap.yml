@@ -17,3 +17,9 @@ eureka:
 server:
   tomcat:
     basedir: ./
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
